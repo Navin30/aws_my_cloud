@@ -1,0 +1,1400 @@
+{
+  "version": "14.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "MycloudStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "MycloudStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/MycloudStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.5257a89101d8f85153e6e365556ba282e4ebfadf14d28352c59bb4d2a54f07e9",
+              "id": "5257a89101d8f85153e6e365556ba282e4ebfadf14d28352c59bb4d2a54f07e9",
+              "packaging": "zip",
+              "sourceHash": "5257a89101d8f85153e6e365556ba282e4ebfadf14d28352c59bb4d2a54f07e9",
+              "s3BucketParameter": "AssetParameters5257a89101d8f85153e6e365556ba282e4ebfadf14d28352c59bb4d2a54f07e9S3BucketCE0DD29B",
+              "s3KeyParameter": "AssetParameters5257a89101d8f85153e6e365556ba282e4ebfadf14d28352c59bb4d2a54f07e9S3VersionKeyD9F9E912",
+              "artifactHashParameter": "AssetParameters5257a89101d8f85153e6e365556ba282e4ebfadf14d28352c59bb4d2a54f07e9ArtifactHash2EEF90CA"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.ts:252:92)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:161:23)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:66:19)",
+              "MycloudStack.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:70:25)",
+              "new Asset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:86:40)",
+              "AssetCode.bind (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:183:20)",
+              "new Function (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:338:29)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:22:32)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          },
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.1f7e277bd526ebce1983fa1e7a84a5281ec533d9187caaebb773681bbf7bf4c1",
+              "id": "1f7e277bd526ebce1983fa1e7a84a5281ec533d9187caaebb773681bbf7bf4c1",
+              "packaging": "zip",
+              "sourceHash": "1f7e277bd526ebce1983fa1e7a84a5281ec533d9187caaebb773681bbf7bf4c1",
+              "s3BucketParameter": "AssetParameters1f7e277bd526ebce1983fa1e7a84a5281ec533d9187caaebb773681bbf7bf4c1S3Bucket4842F32D",
+              "s3KeyParameter": "AssetParameters1f7e277bd526ebce1983fa1e7a84a5281ec533d9187caaebb773681bbf7bf4c1S3VersionKeyD0A0B57A",
+              "artifactHashParameter": "AssetParameters1f7e277bd526ebce1983fa1e7a84a5281ec533d9187caaebb773681bbf7bf4c1ArtifactHash0128B949"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.ts:252:92)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:161:23)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:66:19)",
+              "MycloudStack.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:70:25)",
+              "MycloudStack.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:355:29)",
+              "new CustomResourceProvider (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\custom-resource-provider\\custom-resource-provider.ts:97:25)",
+              "Function.getOrCreateProvider (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\custom-resource-provider\\custom-resource-provider.ts:69:10)",
+              "Bucket.enableAutoDeleteObjects (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:1152:45)",
+              "new Bucket (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:783:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:114:15)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/webserver-role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webserverroleDB0308B6",
+            "trace": [
+              "new Role (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:199:18)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:16:27)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiDefaultHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiDefaultHandler0A2E633B",
+            "trace": [
+              "new Function (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:388:35)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:22:32)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/AssetParameters/5257a89101d8f85153e6e365556ba282e4ebfadf14d28352c59bb4d2a54f07e9/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters5257a89101d8f85153e6e365556ba282e4ebfadf14d28352c59bb4d2a54f07e9S3BucketCE0DD29B",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:16:32)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:66:19)",
+              "MycloudStack.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:70:25)",
+              "new Asset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:86:40)",
+              "AssetCode.bind (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:183:20)",
+              "new Function (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:338:29)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:22:32)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/AssetParameters/5257a89101d8f85153e6e365556ba282e4ebfadf14d28352c59bb4d2a54f07e9/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters5257a89101d8f85153e6e365556ba282e4ebfadf14d28352c59bb4d2a54f07e9S3VersionKeyD9F9E912",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:21:31)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:66:19)",
+              "MycloudStack.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:70:25)",
+              "new Asset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:86:40)",
+              "AssetCode.bind (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:183:20)",
+              "new Function (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:338:29)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:22:32)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/AssetParameters/5257a89101d8f85153e6e365556ba282e4ebfadf14d28352c59bb4d2a54f07e9/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters5257a89101d8f85153e6e365556ba282e4ebfadf14d28352c59bb4d2a54f07e9ArtifactHash2EEF90CA",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:26:34)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:66:19)",
+              "MycloudStack.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:70:25)",
+              "new Asset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:86:40)",
+              "AssetCode.bind (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:183:20)",
+              "new Function (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:338:29)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:22:32)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/AssetParameters/1f7e277bd526ebce1983fa1e7a84a5281ec533d9187caaebb773681bbf7bf4c1/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters1f7e277bd526ebce1983fa1e7a84a5281ec533d9187caaebb773681bbf7bf4c1S3Bucket4842F32D",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:16:32)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:66:19)",
+              "MycloudStack.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:70:25)",
+              "MycloudStack.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:355:29)",
+              "new CustomResourceProvider (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\custom-resource-provider\\custom-resource-provider.ts:97:25)",
+              "Function.getOrCreateProvider (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\custom-resource-provider\\custom-resource-provider.ts:69:10)",
+              "Bucket.enableAutoDeleteObjects (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:1152:45)",
+              "new Bucket (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:783:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:114:15)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/AssetParameters/1f7e277bd526ebce1983fa1e7a84a5281ec533d9187caaebb773681bbf7bf4c1/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters1f7e277bd526ebce1983fa1e7a84a5281ec533d9187caaebb773681bbf7bf4c1S3VersionKeyD0A0B57A",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:21:31)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:66:19)",
+              "MycloudStack.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:70:25)",
+              "MycloudStack.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:355:29)",
+              "new CustomResourceProvider (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\custom-resource-provider\\custom-resource-provider.ts:97:25)",
+              "Function.getOrCreateProvider (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\custom-resource-provider\\custom-resource-provider.ts:69:10)",
+              "Bucket.enableAutoDeleteObjects (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:1152:45)",
+              "new Bucket (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:783:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:114:15)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/AssetParameters/1f7e277bd526ebce1983fa1e7a84a5281ec533d9187caaebb773681bbf7bf4c1/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters1f7e277bd526ebce1983fa1e7a84a5281ec533d9187caaebb773681bbf7bf4c1ArtifactHash0128B949",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:26:34)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:66:19)",
+              "MycloudStack.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:70:25)",
+              "MycloudStack.addFileAsset (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:355:29)",
+              "new CustomResourceProvider (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\custom-resource-provider\\custom-resource-provider.ts:97:25)",
+              "Function.getOrCreateProvider (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\custom-resource-provider\\custom-resource-provider.ts:69:10)",
+              "Bucket.enableAutoDeleteObjects (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:1152:45)",
+              "new Bucket (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:783:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:114:15)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiHelloGetHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiHelloGetHandler2567D506",
+            "trace": [
+              "new Function (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:388:35)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:34:33)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiWorldGetHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiWorldGetHandlerAB82B0A7",
+            "trace": [
+              "new Function (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:388:35)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:46:33)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/nvApiLog/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "nvApiLog34D6C30A",
+            "trace": [
+              "new LogGroup (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-logs\\lib\\log-group.ts:237:22)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:58:22)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayC5141BD9",
+            "trace": [
+              "new RestApi (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:463:22)",
+              "new LambdaRestApi (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:26:5)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:60:24)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayCloudWatchRole76EFA7C8",
+            "trace": [
+              "new Role (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:199:18)",
+              "LambdaRestApi._configureCloudWatchRole (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:289:18)",
+              "new RestApi (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:481:12)",
+              "new LambdaRestApi (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:26:5)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:60:24)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayAccount7D44FA1D",
+            "trace": [
+              "LambdaRestApi._configureCloudWatchRole (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:294:22)",
+              "new RestApi (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:481:12)",
+              "new LambdaRestApi (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:26:5)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:60:24)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayDeploymentE33109E54d6af41623f421b24160ab613f0ecb25",
+            "trace": [
+              "new Deployment (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\deployment.ts:34:21)",
+              "LambdaRestApi._configureDeployment (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:318:32)",
+              "new RestApi (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:484:10)",
+              "new LambdaRestApi (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:26:5)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:60:24)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayDeploymentStageprod0E7BB796",
+            "trace": [
+              "new Stage (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\stage.ts:136:22)",
+              "LambdaRestApi._configureDeployment (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:328:30)",
+              "new RestApi (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:484:10)",
+              "new LambdaRestApi (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:26:5)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:60:24)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayEndpoint8F3C8843",
+            "trace": [
+              "LambdaRestApi._configureDeployment (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:333:7)",
+              "new RestApi (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:484:10)",
+              "new LambdaRestApi (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:26:5)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:60:24)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Default/ANY/ApiPermission.MycloudStackapiGatewayB44B3793.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayANYApiPermissionMycloudStackapiGatewayB44B3793ANYCE1D54D3",
+            "trace": [
+              "Function.addPermission (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:130:5)",
+              "LambdaIntegration.bind (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:41:18)",
+              "new Method (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:98:36)",
+              "RootResource.addMethod (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:78:21)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Default/ANY/ApiPermission.Test.MycloudStackapiGatewayB44B3793.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayANYApiPermissionTestMycloudStackapiGatewayB44B3793ANY55ADEF41",
+            "trace": [
+              "Function.addPermission (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:130:5)",
+              "LambdaIntegration.bind (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:49:20)",
+              "new Method (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:98:36)",
+              "RootResource.addMethod (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:78:21)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Default/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayANY82F2FF5D",
+            "trace": [
+              "new Method (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:116:22)",
+              "RootResource.addMethod (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:78:21)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Default/hello/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayhello352F8657",
+            "trace": [
+              "new Resource (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:342:22)",
+              "RootResource.addResource (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:91:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:80:43)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Default/hello/GET/ApiPermission.MycloudStackapiGatewayB44B3793.GET..hello": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayhelloGETApiPermissionMycloudStackapiGatewayB44B3793GEThello7B0C2369",
+            "trace": [
+              "Function.addPermission (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:130:5)",
+              "LambdaIntegration.bind (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:41:18)",
+              "new Method (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:98:36)",
+              "Resource.addMethod (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:82:19)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Default/hello/GET/ApiPermission.Test.MycloudStackapiGatewayB44B3793.GET..hello": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayhelloGETApiPermissionTestMycloudStackapiGatewayB44B3793GEThello644C55A8",
+            "trace": [
+              "Function.addPermission (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:130:5)",
+              "LambdaIntegration.bind (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:49:20)",
+              "new Method (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:98:36)",
+              "Resource.addMethod (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:82:19)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Default/hello/GET/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayhelloGET89A2F2C7",
+            "trace": [
+              "new Method (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:116:22)",
+              "Resource.addMethod (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:82:19)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Default/hello/POST/ApiPermission.MycloudStackapiGatewayB44B3793.POST..hello": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayhelloPOSTApiPermissionMycloudStackapiGatewayB44B3793POSThelloF01A07C8",
+            "trace": [
+              "Function.addPermission (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:130:5)",
+              "LambdaIntegration.bind (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:41:18)",
+              "new Method (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:98:36)",
+              "Resource.addMethod (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:86:19)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Default/hello/POST/ApiPermission.Test.MycloudStackapiGatewayB44B3793.POST..hello": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayhelloPOSTApiPermissionTestMycloudStackapiGatewayB44B3793POSThelloEA154B5E",
+            "trace": [
+              "Function.addPermission (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:130:5)",
+              "LambdaIntegration.bind (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:49:20)",
+              "new Method (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:98:36)",
+              "Resource.addMethod (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:86:19)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Default/hello/POST/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayhelloPOST8C4D0F7A",
+            "trace": [
+              "new Method (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:116:22)",
+              "Resource.addMethod (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:86:19)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Default/world/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayworld9BFBE4C8",
+            "trace": [
+              "new Resource (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:342:22)",
+              "RootResource.addResource (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:91:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:93:43)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Default/world/GET/ApiPermission.MycloudStackapiGatewayB44B3793.GET..world": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayworldGETApiPermissionMycloudStackapiGatewayB44B3793GETworld0EE04CC7",
+            "trace": [
+              "Function.addPermission (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:130:5)",
+              "LambdaIntegration.bind (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:41:18)",
+              "new Method (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:98:36)",
+              "Resource.addMethod (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:95:19)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Default/world/GET/ApiPermission.Test.MycloudStackapiGatewayB44B3793.GET..world": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayworldGETApiPermissionTestMycloudStackapiGatewayB44B3793GETworldDE6C4AB2",
+            "trace": [
+              "Function.addPermission (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:130:5)",
+              "LambdaIntegration.bind (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:49:20)",
+              "new Method (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:98:36)",
+              "Resource.addMethod (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:95:19)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Default/world/GET/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayworldGET19805B70",
+            "trace": [
+              "new Method (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:116:22)",
+              "Resource.addMethod (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:95:19)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Default/world/POST/ApiPermission.MycloudStackapiGatewayB44B3793.POST..world": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayworldPOSTApiPermissionMycloudStackapiGatewayB44B3793POSTworldE30CAF02",
+            "trace": [
+              "Function.addPermission (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:130:5)",
+              "LambdaIntegration.bind (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:41:18)",
+              "new Method (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:98:36)",
+              "Resource.addMethod (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:99:19)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Default/world/POST/ApiPermission.Test.MycloudStackapiGatewayB44B3793.POST..world": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayworldPOSTApiPermissionTestMycloudStackapiGatewayB44B3793POSTworld8B23AB9D",
+            "trace": [
+              "Function.addPermission (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:130:5)",
+              "LambdaIntegration.bind (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:49:20)",
+              "new Method (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:98:36)",
+              "Resource.addMethod (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:99:19)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/apiGateway/Default/world/POST/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apiGatewayworldPOST8E398F28",
+            "trace": [
+              "new Method (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:116:22)",
+              "Resource.addMethod (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:99:19)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/LogBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LogBucketCC3B17E8",
+            "trace": [
+              "new Bucket (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:715:22)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:114:15)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/LogBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LogBucketPolicy900DBE48",
+            "trace": [
+              "new BucketPolicy (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket-policy.ts:30:21)",
+              "Bucket.addToResourcePolicy (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:228:21)",
+              "Bucket.enableAutoDeleteObjects (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:1160:10)",
+              "new Bucket (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:783:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:114:15)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/LogBucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LogBucketAutoDeleteObjectsCustomResource7762F42C",
+            "trace": [
+              "new CustomResource (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\custom-resource.ts:36:21)",
+              "Bucket.enableAutoDeleteObjects (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:1173:28)",
+              "new Bucket (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:783:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:114:15)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092",
+            "trace": [
+              "new CustomResourceProvider (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\custom-resource-provider\\custom-resource-provider.ts:113:18)",
+              "Function.getOrCreateProvider (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\custom-resource-provider\\custom-resource-provider.ts:69:10)",
+              "Bucket.enableAutoDeleteObjects (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:1152:45)",
+              "new Bucket (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:783:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:114:15)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F",
+            "trace": [
+              "new CustomResourceProvider (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\custom-resource-provider\\custom-resource-provider.ts:131:21)",
+              "Function.getOrCreateProvider (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\custom-resource-provider\\custom-resource-provider.ts:69:10)",
+              "Bucket.enableAutoDeleteObjects (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:1152:45)",
+              "new Bucket (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:783:12)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:114:15)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/webDistribution/CFDistribution": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webDistributionCFDistribution1DB854D1",
+            "trace": [
+              "new CloudFrontWebDistribution (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-cloudfront\\lib\\web-distribution.ts:568:26)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:105:24)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/AliasRecord/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AliasRecord851000D2",
+            "trace": [
+              "new RecordSet (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-route53\\lib\\record-set.ts:119:23)",
+              "new ARecord (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-route53\\lib\\record-set.ts:146:5)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:191:3)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/AWSCloudFrontPartitionHostedZoneIdMap": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AWSCloudFrontPartitionHostedZoneIdMap",
+            "trace": [
+              "Function.getHostedZoneId (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-route53-targets\\lib\\cloudfront-target.ts:17:7)",
+              "CloudFrontTarget.bind (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-route53-targets\\lib\\cloudfront-target.ts:36:38)",
+              "new RecordSet (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-route53\\lib\\record-set.ts:124:73)",
+              "new ARecord (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\aws-route53\\lib\\record-set.ts:146:5)",
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:191:3)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/IPSet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "IPSet",
+            "trace": [
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:197:17)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/WebACL": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebACL",
+            "trace": [
+              "new MycloudStack (C:\\Users\\Navin\\mycloud\\lib\\mycloud-stack.ts:225:18)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\bin\\mycloud.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/MycloudStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.ts:22:24)",
+              "C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:166:5",
+              "visit (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:231:5)",
+              "visit (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:227:5)",
+              "injectMetadataResources (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:157:3)",
+              "Object.synthesize (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:18:3)",
+              "App.synth (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stage.ts:94:23)",
+              "process.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\app.ts:64:45)",
+              "Object.onceWrapper (events.js:520:26)",
+              "process.emit (events.js:400:28)",
+              "process.emit (domain.js:475:12)",
+              "process.emit (C:\\Users\\Navin\\mycloud\\node_modules\\source-map-support\\source-map-support.js:516:21)"
+            ]
+          }
+        ],
+        "/MycloudStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.ts:31:27)",
+              "C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:166:5",
+              "visit (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:231:5)",
+              "visit (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:227:5)",
+              "injectMetadataResources (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:157:3)",
+              "Object.synthesize (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:18:3)",
+              "App.synth (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\stage.ts:94:23)",
+              "process.<anonymous> (C:\\Users\\Navin\\mycloud\\node_modules\\@aws-cdk\\core\\lib\\app.ts:64:45)",
+              "Object.onceWrapper (events.js:520:26)",
+              "process.emit (events.js:400:28)",
+              "process.emit (domain.js:475:12)",
+              "process.emit (C:\\Users\\Navin\\mycloud\\node_modules\\source-map-support\\source-map-support.js:516:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "MycloudStack"
+    }
+  }
+}
